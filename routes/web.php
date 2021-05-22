@@ -24,8 +24,8 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth']], 
     Route::get('/', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
     # Users routes
     Route::get('users', App\Http\Livewire\Admin\Users\UsersIndex::class)->name('users');
+    Route::get(
+        'users/{user}',
+        App\Http\Livewire\Admin\Users\UserDetail::class
+    )->name('users.detail');
 });
-
-Auth::routes();
-
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
