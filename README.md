@@ -1,7 +1,9 @@
-# Livewire Admin Panel
+# Livewire Basic Panel
 
-This is a basic starter project using [Laravel v8.42.1](https://laravel.com/) & laravel-livewire with the next packages:
+This is a basic panel when starts a project using [Laravel v8.42.1](https://laravel.com/) & laravel-livewire
+with auth functions and users CRUD.
 
+## Features:
 - [Laravel-livewire v2.x](#laravel-livewire)
 - [Laravel UI](#laravel-ui)
 - [Livewire Alert](https://github.com/jantinnerezo/livewire-alert)
