@@ -4,7 +4,7 @@
             <a class="c-sidebar-nav-link" href="{{ route('admin.home') }}">
                 <i class="fas fa-tachometer-alt"></i>
                 &nbsp;
-                Dashboard
+                {{ env('APP_NAME') }}
             </a>
         </li>
         <li class="c-sidebar-nav-title">
