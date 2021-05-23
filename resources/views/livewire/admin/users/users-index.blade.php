@@ -36,7 +36,7 @@
                                 >
                                     Edit
                                 </a>
-                                <button class="btn btn-danger btn-sm">
+                                <button class="btn btn-danger btn-sm" wire:click='deleteUser({{ $user->id }})'>
                                     Delete
                                 </button>
                             </td>
