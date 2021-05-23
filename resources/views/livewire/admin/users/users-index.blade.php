@@ -4,6 +4,11 @@
             <strong>
                 Users
             </strong>
+            <a href="{{ route('admin.users.add') }}"
+                class="btn btn-primary btn-sm float-right"
+            >
+                Add user
+            </a>
         </div>
         <div class="card-body">
             <table class="table table-responsive-sm table-bordered table-striped table-sm">
