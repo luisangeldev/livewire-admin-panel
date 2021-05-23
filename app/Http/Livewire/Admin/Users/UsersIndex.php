@@ -47,8 +47,7 @@ class UsersIndex extends Component
 
     public function removeUserConfirmed()
     {
-        $this->user_for_remove->name = 'Eliminado';
-        $this->user_for_remove->save();
+        $this->user_for_remove->delete();
         $this->user_for_remove = '';
         $this->alert('success', 'User removed');
     }
