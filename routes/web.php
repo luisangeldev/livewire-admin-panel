@@ -29,6 +29,11 @@ Route::group(['prefix' => 'admin', 'as' => 'admin.', 'middleware' => ['auth']], 
     )->name('users');
 
     Route::get(
+        'users/add',
+        App\Http\Livewire\Admin\Users\UserAdd::class
+    )->name('users.add');
+
+    Route::get(
         'users/{user}',
         App\Http\Livewire\Admin\Users\UserDetail::class
     )->name('users.detail');
