@@ -2,10 +2,9 @@
     <ul class="c-sidebar-nav ps">
         <li class="c-sidebar-nav-item">
             <a class="c-sidebar-nav-link" href="{{ route('admin.home') }}">
-                <svg class="c-sidebar-nav-icon">
-                    <use xlink:href="{{ asset('vendors/@coreui/icons/svg/free.svg#cil-speedometer') }}"></use>
-                </svg>
-                Dashboard
+                <i class="fas fa-tachometer-alt"></i>
+                &nbsp;
+                {{ env('APP_NAME') }}
             </a>
         </li>
         <li class="c-sidebar-nav-title">
