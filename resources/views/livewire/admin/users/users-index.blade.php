@@ -31,7 +31,9 @@
                                 >
                                     View
                                 </a>
-                                <a href="{{ $user->id }}" class="btn btn-primary btn-sm">
+                                <a href="{{ route('admin.users.edit', $user->id) }}"
+                                    class="btn btn-primary btn-sm"
+                                >
                                     Edit
                                 </a>
                                 <button class="btn btn-danger btn-sm">
