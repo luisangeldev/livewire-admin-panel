@@ -36,7 +36,7 @@
                 </div>
             @endif
             <h1 style="color:#fff;">
-                HolaLivewire
+                Realtystic
             </h1>
         </div>
     </body>
